@@ -4,7 +4,7 @@ const train=['PATNA TO VARANASI','PATNA TO DELHI ','PATNA TO GAYA','PATNA TO VIN
 const link=[];
 $.each(store,function(j, data) {
 var ul_datp = ['<option value="'+store[j]+'">'+'<option value="'+artist[j]+'">'+'<option value="'+train[j]+'">'+'<option value="'+link[j]+'">'];
-            $("#anrede").append(ul_datp);
+            $("#anr").append(ul_datp);
    
    });
             
