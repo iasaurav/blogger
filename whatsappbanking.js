@@ -1,4 +1,4 @@
-document.write("<div id='whatsappbanking'><\/div>");
+
 // Sample array of objects containing name, mobile number, and message
 var data = [
   { name: "State Bank Of India", mobileNumber: "9022690226", message: "Balance" },
