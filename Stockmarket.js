@@ -27,6 +27,20 @@
     
   }
 
+function openNewWindowsensi() {
+    // Get the selected value from the input field
+    var sensib = document.getElementById("sensibull").value;
+    // Open a new window with the selected value as the URL
+   
+    
+    window.open("https://web.sensibull.com/chart?tradingSymbol="+sensib.slice(4,100)+"", "_blank");
+     
+    
+    
+  }
+
+
+
 
 function openNewWindotv() {
     // Get the selected value from the input field
@@ -40,4 +54,27 @@ function openNewWindotv() {
     
     
   }
+
+
+
+
+
+
+
+function yourlinkcsv() {
+var locsvc= ["IDXI13:NIFTY%2050","IDXI25:NIFTY%20BANK","IDXI27:FINNIFTY",];
+for (let i = 0; i < locsvc.length; i++) {
+window.open('https://tv.dhan.co/?symbol='+locsvc[i]+'')}
+			};
+  
+  
+  
+  
+  
+  function yourlinkfyers() {
+var locsvf= ['NSE:NIFTY50-INDEX','NSE:NIFTYBANK-INDEX','NSE:FINNIFTY-INDEX','BSE:SENSEX-INDEX','BSE:BANKEX-INDEX','NSE:MIDCPNIFTY-INDEX',];
+for (let i = 0; i < locsvf.length; i++) {
+window.open('https://trade.fyers.in/popout/index.html?symbol='+locsvf[i]+'&resolution=5&theme=light')}
+			};
+  
 
