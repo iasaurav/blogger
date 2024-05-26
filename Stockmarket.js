@@ -26,3 +26,18 @@
     
     
   }
+
+
+function openNewWindotv() {
+    // Get the selected value from the input field
+    var tradingviews = document.getElementById("tradingview").value;
+    // Open a new window with the selected value as the URL
+   
+    
+    window.open("https://in.tradingview.com/chart/?symbol="+tradingviews+"", "_blank");
+     
+    
+    
+    
+  }
+
