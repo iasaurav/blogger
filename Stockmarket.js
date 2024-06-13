@@ -62,7 +62,7 @@ function openNewWindotv() {
 
 
 function yourlinkcsv() {
-var locsvc= ["IDXI13:NIFTY 50","IDXI25:NIFTY BANK","IDXI27:FINNIFTY","IDXI51:SENSEX"];
+var locsvc= ["IDXI13:NIFTY 50","IDXI25:NIFTY BANK","IDXI27:FINNIFTY","IDXI51:SENSEX","IDXI69:BANKEX"];
 for (let i = 0; i < locsvc.length; i++) {
 window.open('https://tv.dhan.co/?symbol='+locsvc[i]+'&ispopup=true')}
 			};
@@ -72,9 +72,6 @@ window.open('https://tv.dhan.co/?symbol='+locsvc[i]+'&ispopup=true')}
   
   
   function yourlinkfyers() {
-var locsvf= ['NSE:NIFTY50-INDEX','NSE:NIFTYBANK-INDEX','NSE:FINNIFTY-INDEX','BSE:SENSEX-INDEX','BSE:BANKEX-INDEX','NSE:MIDCPNIFTY-INDEX',];
+var locsvf= ['NSE:NIFTY50','NSE:NIFTYBANK','NSE:FINNIFTY','BSE:SENSEX','BSE:BANKEX','NSE:MIDCPNIFTY',];
 for (let i = 0; i < locsvf.length; i++) {
-window.open('https://trade.fyers.in/popout/index.html?symbol='+locsvf[i]+'&resolution=5&theme=light')}
-			};
-  
-
+window.open('https://trade.fyers.in/popout/index.html?symbol='+locsvf[i]+'-INDEX&resolution=5&theme=light')}
