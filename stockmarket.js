@@ -77,3 +77,8 @@ for (let i = 0; i < locsvf.length; i++) {
 window.open('https://trade.fyers.in/popout/index.html?symbol='+locsvf[i]+'&resolution=5&theme=light')}
 			};
 
+function yourlinkup() {
+var locsvup= ['NSE_INDEX%7CNifty%2050?isPopup=true','NSE_INDEX%7CNifty%20Bank?isPopup=true','NSE_INDEX%7CNifty%20Fin%20Service?isPopup=true','BSE_INDEX%7CSENSEX?isPopup=true','BSE_INDEX%7CBANKEX?isPopup=true'];
+for (let i = 0; i < locsvup.length; i++) {
+window.open('https://tv.upstox.com/charts/'+locsvup[i]+'')}
+			};
