@@ -64,7 +64,7 @@ function openNewWindotv() {
 function yourlinkcsv() {
 var locsvc= ["IDXI13:NIFTY 50","IDXI25:NIFTY BANK","IDXI27:FINNIFTY","IDXI51:SENSEX","IDXI69:BANKEX"];
 for (let i = 0; i < locsvc.length; i++) {
-window.open('https://tv.dhan.co/?symbol='+locsvc[i]+'&ispopup=true')}
+window.open('https://tv.dhan.co/?symbol='+locsvc[i]+'')}
 			};
   
   
